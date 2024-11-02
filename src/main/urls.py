@@ -4,5 +4,6 @@ from . import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", views.netics_home, name='home')
+    path("", views.netics_home, name='home'),
+    path("perfil/", views.profile, name='perfil')
 ]
