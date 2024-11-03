@@ -417,6 +417,7 @@ body {
   color: white;
   border-radius: 8px;
   border: none;
+  padding: 0 8px;
   min-height: 1.8rem;
 }
 .formwrap input:hover, .formwrap textarea:hover {
